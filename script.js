@@ -13,7 +13,6 @@ closed.src = "./images/smile.png";
 
 
 closed.onload = function(){
-
     q.drawImage(closed, 100,100, 200, 200)
 }
 
