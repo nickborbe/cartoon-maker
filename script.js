@@ -102,36 +102,36 @@ function animate(){
 
 
     if(eyes.z){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(wideEyes, 250, 350, 250, 100);
     }
 
     if(eyes.x){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(bored, 250, 350, 250, 100);
     }
 
     if(eyes.c){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(mad, 250, 350, 250, 100);
     }
 
     if(eyes.v){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(bugginOut, 250, 350, 250, 100);
     }
 
     if(eyes.b){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(skeptical, 250, 350, 250, 100);
     }
 
     if(eyes.n){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(crying, 250, 350, 250, 100);
     }
     if(eyes.m){
-        q.clearRect(250,350,200,100)
+        q.clearRect(250,350,250,100)
         q.drawImage(knockedOut, 250, 350, 250, 100);
     }
 
