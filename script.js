@@ -113,7 +113,7 @@ function animate(){
 
     if(eyes.c){
         q.clearRect(250,350,250,100)
-        q.drawImage(mad, 250, 350, 250, 100);
+        q.drawImage(mad, 250, 350, 265, 100);
     }
 
     if(eyes.v){
