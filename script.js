@@ -123,7 +123,7 @@ function animate(){
 
     if(eyes.b){
         q.clearRect(250,350,250,100)
-        q.drawImage(skeptical, 250, 350, 250, 100);
+        q.drawImage(skeptical, 250, 350, 260, 100);
     }
 
     if(eyes.n){
@@ -132,7 +132,7 @@ function animate(){
     }
     if(eyes.m){
         q.clearRect(250,350,250,100)
-        q.drawImage(knockedOut, 250, 350, 250, 100);
+        q.drawImage(knockedOut, 250, 350, 270, 100);
     }
 
 
