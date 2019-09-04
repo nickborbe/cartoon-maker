@@ -49,7 +49,7 @@ let mouth = {};
 let eyes = {};
 
 
-
+// this is mostly gonna change once I get sprites
 
 
 
