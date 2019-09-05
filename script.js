@@ -2,18 +2,29 @@ console.log('yo');
 
 const q = document.getElementById('canvas').getContext('2d');
 
-const closed = new Image();
-closed.src = "./images/mouthclosed.png";
-const a = new Image();
-a.src = "./images/a.png";
-const o = new Image();
-o.src = "./images/o.png";
-const smile = new Image();
-smile.src = "./images/smile.png";
+const mmm = new Image();
+mmm.src = "./images/mmm.png";
+const ah = new Image();
+ah.src = "./images/ah.png";
+const oh = new Image();
+oh.src = "./images/oh.png";
+const eh = new Image();
+eh.src = "./images/eh.png";
+const f = new Image();
+f.src = "./images/f.png";
+const l = new Image();
+l.src = "./images/l.png";
+const w = new Image();
+w.src = "./images/w.png";
+const ck = new Image();
+ck.src = "./images/ck.png";
+const ih = new Image();
+ih.src = "./images/ih.png";
 
 
-closed.onload = function(){
-    q.drawImage(closed, 100, 100, 200, 200);
+
+mmm.onload = function(){
+    q.drawImage(mmm, 100, 100, 200, 200);
 }
 
 
