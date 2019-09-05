@@ -48,17 +48,13 @@ document.onkeyup = function(e){
         keys[e.key] = false;
     }
 
-    keys.m = true;
+    // keys.m = true;
    
 }
 
 
 
 function animate(){
-
-    console.log('hello')
-
-
     if(keys.m){
         q.clearRect(100,100,200,200)
         q.drawImage(mmm, 100, 100, 200, 200);  
