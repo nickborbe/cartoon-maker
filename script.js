@@ -57,6 +57,12 @@ document.onkeyup = function(e){
 function animate(){
 
     console.log('hello')
+
+
+    if(keys.m){
+        q.clearRect(100,100,200,200)
+        q.drawImage(mmm, 100, 100, 200, 200);  
+    }
     
     if(keys.l){
             q.clearRect(100,100,200,200)
@@ -65,43 +71,33 @@ function animate(){
 
     if(keys.a){
         q.clearRect(100,100,200,200)
-        q.drawImage(ah, 100, 100, 200, 200);
-        
+        q.drawImage(ah, 100, 100, 200, 200);  
     }
     if(keys.i){
         q.clearRect(100,100,200,200)
-        q.drawImage(ih, 100, 100, 200, 200);
-        
+        q.drawImage(ih, 100, 100, 200, 200);   
     }
     if(keys.w){
-        q.clearRect(100,100,200,200)
-        q.drawImage(w, 100, 100, 200, 200);
         
+        q.clearRect(100,100,200,200)
+        q.drawImage(w, 100, 100, 200, 200); 
     }
     if(keys.f){
         q.clearRect(100,100,200,200)
-        q.drawImage(f, 100, 100, 200, 200);
-        
+        q.drawImage(f, 100, 100, 200, 200);  
     }
     if(keys.o){
         q.clearRect(100,100,200,200)
-        q.drawImage(oh, 100, 100, 200, 200);
-        
+        q.drawImage(oh, 100, 100, 200, 200);  
     }
     if(keys.e){
         q.clearRect(100,100,200,200)
-        q.drawImage(eh, 100, 100, 200, 200);
-        
+        q.drawImage(eh, 100, 100, 200, 200);  
     }
-    if(keys.m){
-        q.clearRect(100,100,200,200)
-        q.drawImage(mmm, 100, 100, 200, 200);
-        
-    }
+ 
     if(keys.k){
         q.clearRect(100,100,200,200)
-        q.drawImage(ck, 100, 100, 200, 200);
-        
+        q.drawImage(ck, 100, 100, 200, 200);  
     }
 
 
