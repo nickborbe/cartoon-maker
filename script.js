@@ -1,4 +1,4 @@
-console.log('yo');
+
 
 const q = document.getElementById('canvas').getContext('2d');
 
@@ -20,6 +20,8 @@ const ck = new Image();
 ck.src = "./images/ck.png";
 const ih = new Image();
 ih.src = "./images/ih.png";
+
+
 
 
 
