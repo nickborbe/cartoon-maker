@@ -183,6 +183,7 @@ function animate(){
     requestAnimationFrame(animate)
 }
 
+// need to refactor to remove hardcoded numbers
 
 
 
