@@ -89,7 +89,7 @@ function animate(){
 
 
     q.beginPath();
-    q.arc(295, 235, 200, 0, 2 * Math.PI);
+    q.arc(300, 230, 200, 0, 2 * Math.PI);
     q.lineWidth = 5;
     q.stroke();
 
