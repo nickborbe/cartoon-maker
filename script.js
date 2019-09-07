@@ -50,7 +50,7 @@ let eyes = {};
 
 
 document.onkeydown = function(e){
-    if(e.keyCode > 60  && e.keyCode < 95){
+    if(['q', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'].includes(e.key)){
         mouth = {};
         mouth[e.key] = true;
     }
