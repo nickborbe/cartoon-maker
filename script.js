@@ -48,7 +48,7 @@ document.onkeyup = function(e){
         keys[e.key] = false;
     }
 
-    // keys.m = true;
+    keys.m = true;
    
 }
 
