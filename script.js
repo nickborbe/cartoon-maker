@@ -25,7 +25,7 @@ ih.src = "./images/ih.png";
 
 
 
-const keys = {};
+const mouth = {};
 
 
 
@@ -38,17 +38,17 @@ mmm.onload = function(){
 
 document.onkeydown = function(e){
     if(e.keyCode > 60  && e.keyCode < 95){
-        keys[e.key] = true;
+        mouth[e.key] = true;
     }
 }
 
 
 document.onkeyup = function(e){
     if(e.keyCode > 60  || e.keyCode < 95){
-        keys[e.key] = false;
+        mouth[e.key] = false;
     }
 
-    keys.m = true;
+    mouth.q = true;
    
 }
 
@@ -62,44 +62,51 @@ function animate(){
 
 
     q.beginPath();
-    q.arc(200, 200, 150, 0, 2 * Math.PI);
+    q.arc(295, 235, 200, 0, 2 * Math.PI);
     q.lineWidth = 5;
     q.stroke();
 
 
 
 
-    if(keys.m){
-        
-        q.drawImage(mmm, 100, 100, 200, 200);  
+    if(mouth.q){
+        q.clearRect(200,200,200,200)
+        q.drawImage(mmm, 200, 200, 200, 200);  
     }
     
-    if(keys.l){
-            q.drawImage(l, 100, 100, 200, 200);
+    if(mouth.y){
+            q.clearRect(200,200,200,200)
+            q.drawImage(l, 200, 200, 200, 200);
     }
 
-    if(keys.a){
-        q.drawImage(ah, 100, 100, 200, 200);  
+    if(mouth.u){
+        q.clearRect(200,200,200,200)
+        q.drawImage(ah, 200, 200, 200, 200);  
     }
-    if(keys.i){
-        q.drawImage(ih, 100, 100, 200, 200);   
+    if(mouth.i){
+        q.clearRect(200,200,200,200)
+        q.drawImage(ih, 200, 200, 200, 200);   
     }
-    if(keys.w){
-        
-        q.drawImage(w, 100, 100, 200, 200); 
+    if(mouth.p){
+        q.clearRect(200,200,200,200)
+        q.drawImage(w, 200, 200, 200, 200); 
     }
-    if(keys.f){
-        q.drawImage(f, 100, 100, 200, 200);  
+    if(mouth.t){
+        q.clearRect(200,200,200,200)
+        q.drawImage(f, 200, 200, 200, 200);  
     }
-    if(keys.o){
-        q.drawImage(oh, 100, 100, 200, 200);  
+    if(mouth.o){
+        q.clearRect(200,200,200,200)
+        q.drawImage(oh, 200, 200, 200, 200);  
     }
-    if(keys.e){
-        q.drawImage(eh, 100, 100, 200, 200);  
+    if(mouth.e){
+        q.clearRect(200,200,200,200)
+        q.drawImage(eh, 200, 200, 200, 200);  
     }
  
-    if(keys.k){
-        q.drawImage(ck, 100, 100, 200, 200);  
+    if(mouth.r){
+        q.clearRect(200,200,200,200)
+        q.drawImage(ck, 200, 200, 200, 200);  
     }
 
 
