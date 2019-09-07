@@ -55,6 +55,17 @@ document.onkeyup = function(e){
 
 
 function animate(){
+
+    
+    q.clearRect(0,0,1000,1000);
+
+
+
+    q.arc(100, 100, 50, 800, 2 * Math.PI);
+
+
+
+
     if(keys.m){
         q.clearRect(100,100,200,200)
         q.drawImage(mmm, 100, 100, 200, 200);  
