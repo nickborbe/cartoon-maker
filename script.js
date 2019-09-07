@@ -40,7 +40,7 @@ skeptical.src="./images/skeptical.png";
 
 
 
-const mouth = {};
+let mouth = {};
 let eyes = {};
 
 
@@ -51,6 +51,7 @@ let eyes = {};
 
 document.onkeydown = function(e){
     if(e.keyCode > 60  && e.keyCode < 95){
+        mouth = {};
         mouth[e.key] = true;
     }
 
