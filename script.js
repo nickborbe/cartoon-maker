@@ -87,10 +87,6 @@ let frames = 0;
 
 
 
-
-
-
-
 function animate(){
 
 
@@ -99,95 +95,87 @@ function animate(){
     
     q.clearRect(0,0,1000,1000);
 
-    q.drawImage(head, 30, 0, 700, 700)
+    q.drawImage(head, 30, 0, 700, 800)
 
 
 
-
-
-    
-
-
-  
-
-    
 
 
     if(eyes.z){
-        q.clearRect(250,250,200,100)
-        q.drawImage(wideEyes, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(wideEyes, 250, 350, 250, 100);
     }
 
     if(eyes.x){
-        q.clearRect(250,250,200,100)
-        q.drawImage(bored, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(bored, 250, 350, 250, 100);
     }
 
     if(eyes.c){
-        q.clearRect(250,250,200,100)
-        q.drawImage(mad, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(mad, 250, 350, 250, 100);
     }
 
     if(eyes.v){
-        q.clearRect(250,250,200,100)
-        q.drawImage(bugginOut, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(bugginOut, 250, 350, 250, 100);
     }
 
     if(eyes.b){
-        q.clearRect(250,250,200,100)
-        q.drawImage(skeptical, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(skeptical, 250, 350, 250, 100);
     }
 
     if(eyes.n){
-        q.clearRect(250,250,200,100)
-        q.drawImage(crying, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(crying, 250, 350, 250, 100);
     }
     if(eyes.m){
-        q.clearRect(250,250,200,100)
-        q.drawImage(knockedOut, 250, 250, 250, 100);
+        q.clearRect(250,350,200,100)
+        q.drawImage(knockedOut, 250, 350, 250, 100);
     }
 
 
 
 
     if(mouth.q){
-        q.clearRect(300,375,200,200)
-        q.drawImage(mmm, 300,375, 200, 200);  
+        q.clearRect(300,450,200,200)
+        q.drawImage(mmm, 300,450, 200, 200);  
     }
     
     if(mouth.y){
-            q.clearRect(300,375,200,200)
-            q.drawImage(l, 300, 375, 200, 200);
+            q.clearRect(300,450,200,200)
+            q.drawImage(l, 300, 450, 200, 200);
     }
 
     if(mouth.u){
-        q.clearRect(300,375,200,200)
-        q.drawImage(ah, 300, 375, 200, 200);  
+        q.clearRect(300,450,200,200)
+        q.drawImage(ah, 300, 450, 200, 200);  
     }
     if(mouth.i){
-        q.clearRect(300,375,200,200)
-        q.drawImage(ih, 300, 375, 200, 200);   
+        q.clearRect(300,450,200,200)
+        q.drawImage(ih, 300, 450, 200, 200);   
     }
     if(mouth.p){
-        q.clearRect(280,375,200,200)
-        q.drawImage(w, 280, 375, 200, 200); 
+        q.clearRect(280,450,200,200)
+        q.drawImage(w, 280, 450, 200, 200); 
     }
     if(mouth.t){
-        q.clearRect(275,375,200,200)
-        q.drawImage(f, 275, 375, 200, 200);  
+        q.clearRect(275,450,200,200)
+        q.drawImage(f, 275, 450, 200, 200);  
     }
     if(mouth.o){
-        q.clearRect(305,375,200,200)
-        q.drawImage(oh, 305, 375, 200, 200);  
+        q.clearRect(305,450,200,200)
+        q.drawImage(oh, 305, 450, 200, 200);  
     }
     if(mouth.e){
-        q.clearRect(300,375,200,200)
-        q.drawImage(eh, 300, 375, 200, 200);  
+        q.clearRect(300,450,200,200)
+        q.drawImage(eh, 300, 450, 200, 200);  
     }
  
     if(mouth.r){
-        q.clearRect(290,375,200,200)
-        q.drawImage(ck, 290, 375, 200, 200);  
+        q.clearRect(290,450,200,200)
+        q.drawImage(ck, 290, 450, 200, 200);  
     }
 
 
