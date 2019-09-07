@@ -23,23 +23,44 @@ ih.src = "./images/ih.png";
 
 // create our character object
 
+const bored = new Image();
+bored.src="./images/bored.png";
+const bugginOut = new Image();
+bugginOut.src="./images/buggin-out.png";
+const crying = new Image();
+crying.src="./images/crying.png";
+const mad = new Image();
+mad.src="./images/mad.png";
+const wideEyes = new Image();
+wideEyes.src="./images/wide-eyes.png";
+const knockedOut = new Image();
+knockedOut.src="./images/knocked-out.png";
+const skeptical = new Image();
+skeptical.src="./images/skeptical.png";
+
 
 
 const mouth = {};
+let eyes = {};
 
 
 
 
 
-mmm.onload = function(){
-    q.drawImage(mmm, 100, 100, 200, 200);
-}
 
 
 document.onkeydown = function(e){
     if(e.keyCode > 60  && e.keyCode < 95){
         mouth[e.key] = true;
     }
+
+    if(['z', 'x', 'c', 'v', 'b', 'n', 'm'].includes(e.key)){
+        eyes = {};
+        eyes[e.key] = true;
+
+    }
+    
+
 }
 
 
@@ -52,9 +73,14 @@ document.onkeyup = function(e){
    
 }
 
+eyes.z = true;
+let frames = 0;
 
 
 function animate(){
+
+
+
 
     
     q.clearRect(0,0,1000,1000);
@@ -65,6 +91,44 @@ function animate(){
     q.arc(295, 235, 200, 0, 2 * Math.PI);
     q.lineWidth = 5;
     q.stroke();
+
+
+    
+
+
+    if(eyes.z){
+        q.clearRect(200,100,200,100)
+        q.drawImage(wideEyes, 175, 100, 250, 100);
+    }
+
+    if(eyes.x){
+        q.clearRect(200,100,200,100)
+        q.drawImage(bored, 175, 100, 250, 100);
+    }
+
+    if(eyes.c){
+        q.clearRect(200,100,200,100)
+        q.drawImage(mad, 175, 100, 250, 100);
+    }
+
+    if(eyes.v){
+        q.clearRect(200,100,200,100)
+        q.drawImage(bugginOut, 175, 100, 250, 100);
+    }
+
+    if(eyes.b){
+        q.clearRect(200,100,200,100)
+        q.drawImage(skeptical, 175, 100, 250, 100);
+    }
+
+    if(eyes.n){
+        q.clearRect(200,100,200,100)
+        q.drawImage(crying, 175, 100, 250, 100);
+    }
+    if(eyes.m){
+        q.clearRect(200,100,200,100)
+        q.drawImage(knockedOut, 175, 100, 250, 100);
+    }
 
 
 
